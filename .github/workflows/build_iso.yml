@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   build-iso:
-    runs-on: [ubuntu-latest, ARM64]
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
